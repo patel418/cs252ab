@@ -1,0 +1,174 @@
+.button {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+  }
+  .button:hover, .btn:focus {
+      border: 1px solid #333;
+      background-color: #fff;
+      color: #000;
+  }
+  p a {
+    text-decoration: underline;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 800;
+  }
+  @blue: #79B9D2;
+  @accent: darken(@blue,20);
+
+  * {
+    box-sizing:border-box;
+  }
+
+  html {
+    font-size:18px;
+  }
+
+  .topbar {
+    background:@blue;
+    color:white;
+    width:100%;
+    z-index:9999;
+    padding:5px 20px;
+  
+    h1 {
+      cursor:pointer;
+    }
+  
+    nav {
+      margin-top:25px;
+    
+      ul {
+        padding:0;
+        margin:0;
+      
+        li {
+          display:inline-block;
+          padding:10px;
+        
+          a {
+            color:white;
+            text-decoration:none;
+          }
+        }
+      }
+    }
+  }
+
+
+  
+    ul.post-grid {
+      margin:0;
+      padding:0;
+      list-style-type:none;
+    
+      li {
+        padding:20px;
+        cursor:pointer;
+        transition: background linear 0.5s;
+        border-bottom:1px solid @accent;
+      
+        &:hover {
+        background:@accent;
+        color:white;
+      
+          h3 {
+            color: white;
+          }
+       
+        }
+      }
+    }
+
+
+  .content {
+    width:100%;
+    position:relative;
+    padding:20px 40px 20px;
+  }
+
+   h2, h3 {
+      color: @accent;
+    }
+
+  .post {
+    -webkit-transition:0.5s linear all;
+    transition:0.5s linear all;
+    opacity:1;
+    padding-bottom:30px;
+  
+    cite {
+      display:inline-block;
+      padding:10px 0;
+    }
+  }
+
+  .comments {
+    ul {
+      margin:0;
+      padding:0;
+      li {
+        list-style-type:none;
+        padding:20px 5px;
+        border-bottom:1px @blue solid;
+      }
+    }
+  }
+
+  .post.ng-hide {
+    opacity:0;
+  }
+
+  .post.ng-hide-add, .post.ng-hide-remove {
+    display:block!important;
+  }
+
+  form {
+    width:100%;
+  }
+  input, textarea {
+    display:block;
+    width:100%;
+    padding:10px;
+    font-size:1.1em;
+  }
+
+  .ng-invalid.ng-dirty {
+    border-color:red;
+  }
+
+  .ng-valid.ng-dirty {
+    border-color:green;
+  }
+
+  img {
+    max-width:100%;
+  }
+  .button {
+	
+  	/*Step 2: Basic Button Styles*/
+  	display: block;
+  	height: 100px;
+  	width: 300px;
+  	background: #34696f;
+  	border: 2px solid rgba(33, 68, 72, 0.59);
+	
+  	/*Step 3: Text Styles*/
+  	color: rgba(0, 0, 0, 0.55);
+  	text-align: center;
+  	font: bold 3.2em/100px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  }
+ 
+  /*Step 3: Link Styling*/
+  a.button {
+  	text-decoration: none;
+  }

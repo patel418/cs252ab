@@ -1,0 +1,22 @@
+{
+  "name": "Bower",
+  "description": "adventureblog",
+  "main": "app.js",
+  "authors": [
+    "Simron",
+    "Sidhant",
+    "Srishti"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "adventure",
+    "blog"
+  ],
+  "homepage": "http://localhost:6001/",
+  "dependencies": {
+    "angular-post-fix": "^0.1.0"
+  },
+  "devDependencies": {
+    "angular-post-fix": "^0.1.0"
+  }
+}
